@@ -1,63 +1,56 @@
-<svg width="100%" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
-
-  <defs>
-    <radialGradient id="cell1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#9b59b6" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#6c3483" stop-opacity="0.7"/>
-    </radialGradient>
-  </defs>
+<svg width="100%" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background cells -->
-  <ellipse cx="90" cy="100" rx="55" ry="45" fill="#e8d5f5" stroke="#9b59b6" stroke-width="0.8" opacity="0.4"/>
-  <ellipse cx="90" cy="100" rx="20" ry="16" fill="#9b59b6" opacity="0.3"/>
+  <ellipse cx="90" cy="80" rx="55" ry="45" fill="#e8d5f5" stroke="#9b59b6" stroke-width="0.8" opacity="0.4"/>
+  <ellipse cx="90" cy="80" rx="20" ry="16" fill="#9b59b6" opacity="0.3"/>
 
-  <ellipse cx="155" cy="155" rx="48" ry="38" fill="#fce4ec" stroke="#e91e8c" stroke-width="0.8" opacity="0.35"/>
-  <ellipse cx="155" cy="155" rx="17" ry="13" fill="#e91e8c" opacity="0.3"/>
+  <ellipse cx="155" cy="135" rx="48" ry="38" fill="#fce4ec" stroke="#e91e8c" stroke-width="0.8" opacity="0.35"/>
+  <ellipse cx="155" cy="135" rx="17" ry="13" fill="#e91e8c" opacity="0.3"/>
 
-  <ellipse cx="60" cy="185" rx="38" ry="45" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" opacity="0.35"/>
-  <ellipse cx="60" cy="185" rx="14" ry="17" fill="#1976d2" opacity="0.3"/>
+  <ellipse cx="60" cy="165" rx="38" ry="45" fill="#e3f2fd" stroke="#1976d2" stroke-width="0.8" opacity="0.35"/>
+  <ellipse cx="60" cy="165" rx="14" ry="17" fill="#1976d2" opacity="0.3"/>
 
-  <ellipse cx="155" cy="60" rx="35" ry="42" fill="#fce4ec" stroke="#c2185b" stroke-width="0.8" opacity="0.3"/>
-  <ellipse cx="155" cy="60" rx="12" ry="15" fill="#c2185b" opacity="0.25"/>
+  <ellipse cx="155" cy="45" rx="35" ry="38" fill="#fce4ec" stroke="#c2185b" stroke-width="0.8" opacity="0.3"/>
+  <ellipse cx="155" cy="45" rx="12" ry="14" fill="#c2185b" opacity="0.25"/>
 
   <!-- Main cell -->
-  <ellipse cx="105" cy="135" rx="72" ry="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
-  <ellipse cx="105" cy="135" rx="72" ry="60" fill="none" stroke="#9c27b0" stroke-width="0.5" stroke-dasharray="4,3" opacity="0.5"/>
+  <ellipse cx="105" cy="110" rx="72" ry="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <ellipse cx="105" cy="110" rx="72" ry="60" fill="none" stroke="#9c27b0" stroke-width="0.5" stroke-dasharray="4,3" opacity="0.5"/>
 
   <!-- Organelles -->
-  <ellipse cx="85" cy="125" rx="8" ry="5" fill="#ce93d8" opacity="0.6"/>
-  <ellipse cx="125" cy="150" rx="6" ry="9" fill="#ce93d8" opacity="0.5"/>
-  <ellipse cx="95" cy="155" rx="5" ry="4" fill="#f48fb1" opacity="0.5"/>
-  <ellipse cx="115" cy="118" rx="4" ry="6" fill="#f48fb1" opacity="0.4"/>
-  <ellipse cx="130" cy="130" rx="5" ry="4" fill="#ce93d8" opacity="0.4"/>
+  <ellipse cx="85" cy="100" rx="8" ry="5" fill="#ce93d8" opacity="0.6"/>
+  <ellipse cx="125" cy="125" rx="6" ry="9" fill="#ce93d8" opacity="0.5"/>
+  <ellipse cx="95" cy="130" rx="5" ry="4" fill="#f48fb1" opacity="0.5"/>
+  <ellipse cx="115" cy="93" rx="4" ry="6" fill="#f48fb1" opacity="0.4"/>
+  <ellipse cx="130" cy="105" rx="5" ry="4" fill="#ce93d8" opacity="0.4"/>
 
   <!-- Nucleus -->
-  <ellipse cx="105" cy="135" rx="28" ry="24" fill="#7b1fa2" opacity="0.85"/>
-  <ellipse cx="100" cy="131" rx="9" ry="8" fill="#4a0072" opacity="0.9"/>
-  <ellipse cx="113" cy="140" rx="6" ry="5" fill="#4a0072" opacity="0.7"/>
+  <ellipse cx="105" cy="110" rx="28" ry="24" fill="#7b1fa2" opacity="0.85"/>
+  <ellipse cx="100" cy="106" rx="9" ry="8" fill="#4a0072" opacity="0.9"/>
+  <ellipse cx="113" cy="115" rx="6" ry="5" fill="#4a0072" opacity="0.7"/>
 
   <!-- H&E dots -->
-  <circle cx="140" cy="105" r="5" fill="#3949ab" opacity="0.7"/>
-  <circle cx="75" cy="165" r="4" fill="#e91e63" opacity="0.7"/>
-  <circle cx="133" cy="168" r="3" fill="#e91e63" opacity="0.6"/>
-  <circle cx="78" cy="110" r="4" fill="#3949ab" opacity="0.6"/>
+  <circle cx="140" cy="80" r="5" fill="#3949ab" opacity="0.7"/>
+  <circle cx="75" cy="140" r="4" fill="#e91e63" opacity="0.7"/>
+  <circle cx="133" cy="143" r="3" fill="#e91e63" opacity="0.6"/>
+  <circle cx="78" cy="85" r="4" fill="#3949ab" opacity="0.6"/>
 
   <!-- Separator -->
-  <line x1="210" y1="50" x2="210" y2="230" stroke="#7b1fa2" stroke-width="1.5" opacity="0.3"/>
+  <line x1="210" y1="20" x2="210" y2="200" stroke="#7b1fa2" stroke-width="1.5" opacity="0.3"/>
 
   <!-- Text -->
-  <text x="260" y="145" font-family="'Segoe UI', system-ui, sans-serif" font-size="68" font-weight="700">
+  <text x="235" y="115" font-family="'Segoe UI', system-ui, sans-serif" font-size="72" font-weight="700">
     <tspan fill="#4a0072">Virtual</tspan><tspan fill="#e91e63">HE</tspan>
   </text>
 
   <!-- Subtitle -->
-  <text x="262" y="178" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" fill="#7b1fa2" letter-spacing="2" font-weight="400">TINCIÓN HISTOLÓGICA VIRTUAL</text>
+  <text x="237" y="148" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#7b1fa2" letter-spacing="2" font-weight="400">TINCIÓN HISTOLÓGICA VIRTUAL</text>
 
   <!-- Pills -->
-  <rect x="262" y="198" rx="10" ry="10" width="80" height="20" fill="#3949ab" opacity="0.85"/>
-  <text x="302" y="213" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="500">Hematoxilina</text>
+  <rect x="237" y="163" rx="10" ry="10" width="88" height="22" fill="#3949ab" opacity="0.85"/>
+  <text x="281" y="179" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="500">Hematoxilina</text>
 
-  <rect x="352" y="198" rx="10" ry="10" width="50" height="20" fill="#e91e63" opacity="0.85"/>
-  <text x="377" y="213" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="500">Eosina</text>
+  <rect x="335" y="163" rx="10" ry="10" width="55" height="22" fill="#e91e63" opacity="0.85"/>
+  <text x="362" y="179" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="500">Eosina</text>
 
 </svg>
