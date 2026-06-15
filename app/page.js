@@ -44,7 +44,7 @@ export default function Home() {
     <main style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #e8f0fe 0%, #f0f4ff 50%, #e8f4fd 100%)', fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
 
       {/* Header */}
-      <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0', padding: '16px 40px', display: 'flex', alignItems: 'center', gap: '16px', boxShadow: '0 1px 8px rgba(31,78,121,0.08)' }}>
+      <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0', padding: '8px 40px', display: 'flex', alignItems: 'center', gap: '16px', boxShadow: '0 1px 8px rgba(31,78,121,0.08)' }}>
         <img src="/logo.svg" alt="VirtualHE" style={{ height: '110px', width: 'auto' }} />
       </div>
 
