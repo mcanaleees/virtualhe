@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Header */}
       <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0', padding: '16px 40px', display: 'flex', alignItems: 'center', gap: '16px', boxShadow: '0 1px 8px rgba(31,78,121,0.08)' }}>
-        <img src="/logo.svg" alt="VirtualHE" style={{ height: '90px', width: 'auto' }} />
+        <img src="/logo.svg" alt="VirtualHE" style={{ height: '100px', width: 'auto' }} />
       </div>
 
       <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 24px' }}>
