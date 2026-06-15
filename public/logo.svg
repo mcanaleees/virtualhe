@@ -47,10 +47,9 @@
   <text x="237" y="148" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#7b1fa2" letter-spacing="2" font-weight="400">TINCIÓN HISTOLÓGICA VIRTUAL</text>
 
   <!-- Pills -->
-  <rect x="237" y="163" rx="10" ry="10" width="88" height="22" fill="#3949ab" opacity="0.85"/>
-  <text x="281" y="179" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="500">Hematoxilina</text>
+<rect x="237" y="160" rx="12" ry="12" width="110" height="28" fill="#3949ab" opacity="0.85"/>
+  <text x="292" y="179" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="500">Hematoxilina</text>
 
-  <rect x="335" y="163" rx="10" ry="10" width="55" height="22" fill="#e91e63" opacity="0.85"/>
-  <text x="362" y="179" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="500">Eosina</text>
-
+  <rect x="357" y="160" rx="12" ry="12" width="70" height="28" fill="#e91e63" opacity="0.85"/>
+  <text x="392" y="179" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="white" text-anchor="middle" font-weight="500">Eosina</text>
 </svg>
