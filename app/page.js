@@ -45,11 +45,7 @@ export default function Home() {
 
       {/* Header */}
       <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0', padding: '16px 40px', display: 'flex', alignItems: 'center', gap: '16px', boxShadow: '0 1px 8px rgba(31,78,121,0.08)' }}>
-        <div style={{ fontSize: '32px' }}>🔬</div>
-        <div>
-          <h1 style={{ margin: 0, fontSize: '24px', fontWeight: '700', color: '#1F4E79' }}>VirtualHE</h1>
-          <p style={{ margin: 0, fontSize: '13px', color: '#64748b' }}>Tinción Histológica H&E Virtual con IA</p>
-        </div>
+        <img src="/logo.svg" alt="VirtualHE" style={{ height: '70px', width: 'auto' }} />
       </div>
 
       <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 24px' }}>
