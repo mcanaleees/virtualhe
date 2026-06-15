@@ -43,21 +43,15 @@ export default function Home() {
   return (
     <main style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #e8f0fe 0%, #f0f4ff 50%, #e8f4fd 100%)', fontFamily: "'Segoe UI', system-ui, sans-serif" }}>
 
-      {/* Header */}
-      <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0', padding: '8px 40px', display: 'flex', alignItems: 'center', gap: '16px', boxShadow: '0 1px 8px rgba(31,78,121,0.08)' }}>
-        <img src="/logo.svg" alt="VirtualHE" style={{ height: '110px', width: 'auto' }} />
+{/* Header */}
+      <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0', padding: '8px 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px', boxShadow: '0 1px 8px rgba(31,78,121,0.08)' }}>
+        <img src="/logo.svg" alt="VirtualHE" style={{ height: '80px', width: 'auto' }} />
+        <p style={{ margin: 0, color: '#475569', fontSize: '14px', lineHeight: '1.7', maxWidth: '600px', textAlign: 'right' }}>
+          VirtualHE aplica tinción de Hematoxilina y Eosina (H&amp;E) de forma virtual a imágenes de tejido histológico. 
+          Sube una imagen de tejido sin teñir y obtén en segundos cómo se vería con tinción H&amp;E real.
+        </p>
       </div>
-
       <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 24px' }}>
-
-        {/* Descripción */}
-        <div style={{ background: 'white', borderRadius: '16px', padding: '24px', marginBottom: '24px', border: '1px solid #e2e8f0', boxShadow: '0 2px 12px rgba(31,78,121,0.06)' }}>
-          <h2 style={{ margin: '0 0 8px', fontSize: '18px', color: '#1F4E79' }}>¿Qué es VirtualHE?</h2>
-          <p style={{ margin: 0, color: '#475569', fontSize: '14px', lineHeight: '1.7' }}>
-            VirtualHE aplica tinción de Hematoxilina y Eosina (H&E) de forma virtual a imágenes de tejido histológico. 
-            Sube una imagen de tejido sin teñir y obtén en segundos cómo se vería con tinción H&E real.
-          </p>
-        </div>
 
         {/* Panel principal */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
